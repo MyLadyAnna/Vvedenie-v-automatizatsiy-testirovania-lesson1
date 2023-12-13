@@ -49,7 +49,7 @@ public class MyGameTest {
 
     }
 
-    // Не меняет выбор - проигрывает
+    // Не меняет выбор - выигрывает
     @Test
     void testGamePlayerNotChangeChoiceAndLoose () {
         // Given
@@ -65,7 +65,7 @@ public class MyGameTest {
 
     }
 
-    // Не меняет выбор - выигрывает
+    // Не меняет выбор - проигрывает
     @Test
     void testGamePlayerNotChangeChoiceAndWin () {
         // Given
